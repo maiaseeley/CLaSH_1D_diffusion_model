@@ -35,5 +35,5 @@ dt = 0.5 * dx**2 / D #time step
 for t in range(0, nt):
 	z[1:-1] += D * dt / dx ** 2 * (z[:-2] - 2*z[1:-1] + z[2:])
 
-plot_profile(x,z, color="b", title="Final hillslope profile", output="final-profile.png)
+plot_profile(x,z, color="b", title="Final hillslope profile", output="final-profile.png")
 
